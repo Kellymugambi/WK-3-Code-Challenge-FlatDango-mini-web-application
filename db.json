@@ -1,0 +1,162 @@
+{
+ 
+    "films": [
+    
+       {
+        "id": "1",
+    
+        "title": "Emancipation(2022)",
+   
+        "runtime": "132",
+   
+        "capacity": 30,
+   
+        "showtime": "04:00PM",
+   
+        "tickets_sold": 27,
+   
+        "description": "A runaway slave forges through the swamps of Louisiana on a tortuous journey to escape plantation owners that nearly killed him.",
+   
+        "poster": "https://www.imdb.com/title/tt12530246/mediaviewer/rm3028025345/"
+       },
+       {
+        "id": "2",
+    
+        "title": "Black Adam (2022)",
+   
+        "runtime": "125",
+   
+        "capacity": 30,
+   
+        "showtime": "05:00PM",
+   
+        "tickets_sold": 27,
+   
+        "description": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods and imprisoned just as quickly Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+   
+        "poster": "https://images.wallpapersden.com/image/download/official-black-adam_bWtnZ2aUmZqaraWkpJRnbGtprWllbms.jpg"
+       },
+       {
+        "id": "3",
+    
+        "title": "BLACKOUT (2022)",
+   
+        "runtime": "91",
+   
+        "capacity": 30,
+   
+        "showtime": "06:00PM",
+   
+        "tickets_sold": 27,
+   
+        "description": "After waking up in a Mexican hospital with no memory of his past, a man finds himself being hunted by various cartel factions who are all looking for something he stole.",
+   
+        "poster": "https://www.imdb.com/title/tt8363392/mediaviewer/rm3536193025/?ref_=tt_md_1"
+       },
+       {
+        "id": "4",
+    
+        "title": "THE CONTRACTOR ",
+   
+        "runtime": "103",
+   
+        "capacity": 30,
+   
+        "showtime": "07:00PM",
+   
+        "tickets_sold": 27,
+   
+        "description": "A discharged U.S. Special Forces sergeant, James Harper, risks everything for his family when he joins a private contracting organization.",
+   
+        "poster": "https://www.imdb.com/title/tt10323676/mediaviewer/rm3320258049/?ref_=tt_ov_i"
+       },
+       {
+        "id": "5",
+    
+        "title": "MEMORY ",
+   
+        "runtime": "114",
+   
+        "capacity": 30,
+   
+        "showtime": "08:00PM",
+   
+        "tickets_sold": 27,
+   
+        "description": "An assassin-for-hire finds that he's become a target after he refuses to complete a job for a dangerous criminal organization.",
+   
+        "poster": "https://www.imdb.com/title/tt11827628/mediaviewer/rm365369601/?ref_=tt_ov_i"
+       },
+       {
+        "id": "6",
+    
+        "title": "CARTER",
+   
+        "runtime": "132",
+   
+        "capacity": 30,
+   
+        "showtime": "09:00PM",
+   
+        "tickets_sold": 27,
+   
+        "description": "Thrown straight into a dangerous mission with none of his memories intact, a man must escape death while trying to figure out who he is, how he ended up here, and who is the mysterious voice in his ear calling him Carter?",
+   
+        "poster": "https://www.imdb.com/title/tt21237030/mediaviewer/rm3751217665/"
+       },
+       {
+        "id": "7",
+    
+        "title": "THE SWIMMERS",
+   
+        "runtime": "134",
+   
+        "capacity": 30,
+   
+        "showtime": "09:00PM",
+   
+        "tickets_sold": 27,
+   
+        "description": "Two Syrian sisters flee their war-torn home in Damascus, swim for hours in choppy Mediterranean seas to reach Greece as asylum seekers before going on to compete at the Rio Olympic Games.",
+   
+        "poster": "https://www.imdb.com/title/tt8745676/mediaviewer/rm103943169/?ref_=tt_ov_i"
+       },
+       {
+        "id": "8",
+    
+        "title": "OVERDOSE (2022)",
+   
+        "runtime": "120",
+   
+        "capacity": 30,
+   
+        "showtime": "10:00PM",
+   
+        "tickets_sold": 27,
+   
+        "description": "Forced to collaborate on two related investigations, Sara and Richard, two police officers from Toulouse and Paris, find themselves in a race against time as their attraction for each other grows.",
+   
+        "poster": "https://www.imdb.com/title/tt15713012/mediaviewer/rm644743425/?ref_=tt_ov_i"
+       },
+       {
+        "id": "9",
+    
+        "title": "Elizabeth: A Portrait in Part(s) (2022)",
+   
+        "runtime": "90",
+   
+        "capacity": 30,
+   
+        "showtime": "10:30PM",
+   
+        "tickets_sold": 27,
+   
+        "description": "A documentary on the life of Queen Elizabeth II, the longest-lived, longest reigning British monarch and longest serving female head of state in history.",
+   
+        "poster":"https://www.imdb.com/title/tt13968794/mediaviewer/rm2608730113/?ref_=tt_ov_i"
+       }
+    
+    
+    ]
+    
+    }
