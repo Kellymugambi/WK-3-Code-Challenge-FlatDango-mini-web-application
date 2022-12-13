@@ -1,13 +1,12 @@
 document.addEventListener("DOMContentLoaded", ()=>{
-    //invoke the twoo get request and render the response to DOM
+    //invoke the two get request and render the response to DOM
     getfilmls()
     getfilml1()
     
 })
 
-
-
-//make GET request for films data
+//make GET request for films data.
+//map through the data and render (film.title of each film) to the DOM, on the left side of the page
 function getfilmls (){
     fetch("http://localhost:3000/films/") 
     .then(response => response.json())
@@ -24,7 +23,9 @@ function getfilmls (){
     let runtime = document.querySelector("#runtime");
     let showtime = document.querySelector("#showtime");
     let avtickets = document.querySelector("#tickets");
-// make GET request to get film/1 data for display.
+    
+// make GET request to get film/1 data and display it in the DOM.
+// display film/1 : poster, title, runtime, showtime and available tickets.
 const getfilml1 =()=> {
     fetch("http://localhost:3000/films/1") 
     .then(response => response.json())
@@ -42,9 +43,10 @@ const getfilml1 =()=> {
 
         showtime=film1.showtime
         document.querySelector(".show").append(showtime)
-
-//tickets available        
-        function availableTickets(){
+        
+    
+//tickets available = (film1.capacity - film.tickets_sold)       
+const availableTickets = ()=>{
             let capacity =film1.capacity 
              let tSold = film1.tickets_sold
              if (capacity > tSold)       
@@ -53,19 +55,22 @@ const getfilml1 =()=> {
                 }
         avtickets = availableTickets()
         document.querySelector(".tick").append(avtickets) 
-    })
 
- }
- 
-let capacity =film1.capacity 
-let tSold = film1.tickets_sold
-const btn = document.querySelector("#btn")
-        btn.addEventListener("click", ()=>{ 
-        btn.innerHTML;
-        if (capacity>tSold)
-        return avtickets -= 1
-        else if (capacity<=tSold)
-        return("There are 0 tickets available")
+       //Add button to return (available tickets -1) 0nclick. 
+      document.querySelector("#btn").addEventListener("click", ()=>{
+        capacity = parseInt(film1.capacity)
+        tSold = parseInt(film1.tickets_sold)
+        avtickets = parseInt(document.querySelector("#tickets").innerHTML)
+
+        return (avtickets-=1)
+     
+
+    })
+  
+        
+    })  
     
-    document.querySelector("#pbtn").appendChild(btn)
-})
+ }
+
+
+   
