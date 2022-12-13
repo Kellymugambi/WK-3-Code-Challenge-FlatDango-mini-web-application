@@ -15,6 +15,9 @@ body{
     text-align: left;
     font-size: smaller;
     text-decoration-line: underline;
+    cursor: pointer;
+    color: rgb(14, 12, 116);
+    
 }
 #film1{
     text-align: center;
@@ -23,11 +26,12 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 35%;
    
 }
 #h3{
     text-align: center;
+    color: darkred;
 }
 .num,.show,.tick{
     text-align: center;
@@ -35,3 +39,14 @@ body{
     color: blue;
  
 }
+#btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+   
+    
+    background-color: darkgreen;
+}
+
+
