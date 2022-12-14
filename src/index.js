@@ -57,12 +57,19 @@ const availableTickets = ()=>{
         document.querySelector(".tick").append(avtickets) 
 
        //Add button to return (available tickets -1) 0nclick. 
-      document.querySelector("#btn").addEventListener("click", ()=>{
+      const button =  document.querySelector("#btn")
+      button.addEventListener("click", (e)=>{
         capacity = parseInt(film1.capacity)
         tSold = parseInt(film1.tickets_sold)
         avtickets = parseInt(document.querySelector("#tickets").innerHTML)
+        if (tSold===capacity){
+            button.innerHTML = "SOLD OUT"
+        }else{
+            button.innerHTML = ((capacity-tSold)-1)
+        }
+        
 
-        return (avtickets-=1)
+        
      
 
     })
