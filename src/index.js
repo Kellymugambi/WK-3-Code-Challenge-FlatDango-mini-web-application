@@ -49,8 +49,12 @@ const getfilml1 =()=> {
 const availableTickets = ()=>{
             let capacity =film1.capacity 
              let tSold = film1.tickets_sold
-             if (capacity > tSold)       
-             return capacity -tSold
+             if (capacity > tSold){
+                return capacity -tSold
+             }else{
+                return "SOLD OUT"
+             }      
+             
            
                 }
         avtickets = availableTickets()
@@ -65,13 +69,10 @@ const availableTickets = ()=>{
         if (tSold===capacity){
             button.innerHTML = "SOLD OUT"
         }else{
-            button.innerHTML = ((capacity-tSold)-1)
+            button.innerHTML = (`CurrentTickets: ${(capacity-tSold)-1}`)
         }
         
-
         
-     
-
     })
   
         
